@@ -4,8 +4,7 @@
 
 ---
 
-
-## Project Overview 📝
+##  Project Overview 📝
 
 This project performs a comprehensive analysis of the [e.g., New York City TLC Taxi Trip] dataset. The primary goal is to process a large volume of trip records to understand passenger behavior, identify peak demand periods, analyze fare structures, and visualize key operational metrics.
 
@@ -50,9 +49,9 @@ The project follows a standard data science workflow to ensure robust and reprod
 ```mermaid
 graph TD
     A[Data Ingestion] --> B[Data Cleaning & Preprocessing];
-    B --> C[Exploratory Data Analysis (EDA)];
+    B --> C[Exploratory Data Analysis];
     C --> D[Feature Engineering];
-    D --> E[Data Visualization & Insight Generation];
+    D --> E[Data Visualization];
     E --> F[Dashboard/Report];
 ```
 
@@ -84,7 +83,6 @@ To reproduce this analysis locally, follow these steps:
 1.  **Clone the repository:**
     ```bash
     git clone [ https://github.com/AnkitMandusia/Automatidata-Taxi-Trips.git]( https://github.com/AnkitMandusia/Automatidata-Taxi-Trips.git)
-   
     cd taxi-data-analysis
     ```
 
@@ -102,7 +100,7 @@ To reproduce this analysis locally, follow these steps:
 
 ---
 
-## Usage ▶️
+##  Usage ▶️
 
 1.  **Place the dataset** in the `[e.g., data/]` directory.
 2.  **Launch Jupyter Notebook or Jupyter Lab:**
@@ -113,6 +111,9 @@ To reproduce this analysis locally, follow these steps:
 
 ---
 
-## License 📄
+##  License 📄
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
